@@ -11,10 +11,7 @@ import CoreHaptics
 
 struct ContentView: View {
     
-    func simpleSuccess() {
-        let generator = UINotificationFeedbackGenerator()
-        generator.notificationOccurred(.success)
-    }
+  
     
     @State private var isToggled = false
     var body: some View {
